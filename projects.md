@@ -1,40 +1,33 @@
 # Projects
 
-### 1. Global Payment Engine 💼
-
+### 1. Global Payment Engine 💳
 **Employer**: Société Générale GSC  
-**Technologies**: Java, Spring Boot, Microservices, IaaS, SWIFT Messaging, RabbitMQ  
-**Description**: The **Global Payment Engine** is a settlement application used to manage settlement instructions and SWIFT messages across the SWING network. Led the backend development and DevOps team to design CI/CD pipelines and implement scalable solutions.  
+**Technologies**: Java, Spring Boot, Microservices, REST APIs, Kubernetes, IBMMQ, SWIFT  
+**Description**: Led the backend team to develop and maintain a **settlement application** for managing settlement instructions. The project also handled SWIFT messages across the SWING network.  
+**Key Responsibilities**:  
+- Designed and implemented backend APIs for new business requirements.
+- Architected scalable components for future requirements.
+- Spearheaded DevOps initiatives, building CI/CD pipelines in IaaS.
+- Conducted performance testing, including analyzing thread dumps for optimizations.
+- Managed L3 support for critical P1 and P2 tasks.  
 **Key Features**:  
-- Architected new components to meet future scalability requirements.
-- Designed and developed backend APIs to handle settlement instructions and SWIFT messaging.
-- Implemented horizontal and vertical scaling strategies to enhance system performance and availability.
-- Managed L3 support for P1 and P2 production issues, ensuring critical resolutions.
+- Microservices architecture for high availability.
+- Integrated IBMMQ for secure message queuing and SWIFT messaging.
+- Optimized system performance through vertical and horizontal scaling.  
+**GitHub**: [Project Repo (Placeholder)](https://github.com/yourusername/global-payment-engine)
 
 ---
 
-### 2. Investment Management System 💼
-
+### 2. Investor Management System 📈
 **Employer**: Mindtree Ltd.  
-**Technologies**: Java, Spring Boot, Hibernate, MySQL, JUnit, Mockito  
-**Description**: Developed a comprehensive system for managing mutual funds, shares, and transactions for investors and advisors. This system also provided administrative tools to register and manage users.  
-**Key Features**:  
-- Developed the business and data access layers for seamless communication between the application and the database.
-- Implemented unit and integration tests using **JUnit** and **Mockito** to meet client requirements.
-- Collaborated with cross-functional teams for sprint planning and code reviews.
-- Handled production issues and implemented solutions for critical bugs in QA and UAT environments.
-
-**GitHub**: [Investment Management System Repo](https://github.com/yourusername/investment-management-system)
+**Technologies**: Java, Spring Boot, JUnit, Mockito, Jenkins  
+**Description**: Developed a backend system for managing investors and advisors involved in mutual funds, shares, and transactions. The system provided tools for administrators to manage registrations and user accounts.  
+**Key Responsibilities**:  
+- Developed business and DAO layers.
+- Unit testing with JUnit and Mockito.
+- Participated in client calls, sprint planning, and technical discussions.
+- Provided timely resolutions for production issues and trained junior team members.
+- Fixed QA and UAT defects.  
+**GitHub**: [Project Repo (Placeholder)](https://github.com/yourusername/investor-management-system)
 
 ---
-
-### 3. CI/CD Pipeline for Spring Boot App 🚀
-
-**Technologies**: Jenkins, Docker, Kubernetes, GitHub Actions  
-**Description**: Built and deployed a full **CI/CD pipeline** for a Java Spring Boot application using Jenkins and GitHub Actions. This pipeline automated the testing, building, and deployment process, ensuring faster development cycles.  
-**Key Features**:  
-- Integrated **Jenkins** for continuous integration.
-- Automated containerization using **Docker** and deployed applications on **Kubernetes** clusters.
-- Implemented monitoring and scaling mechanisms to ensure high availability.
-
-**GitHub**: [CI/CD Pipeline Repo](https://github.com/your
